@@ -39,3 +39,42 @@ h1 {
     right: 50%;
     top: 0%;
 }
+
+.btn {
+    background-color: #ad750e;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 300px;
+    border-radius: 200px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: white;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    border: 1px solid #ad750e;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    background-color: transparent;
+    border: 1px solid #ad750e;
+    color: #ad750e;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    border: 1px solid #895d0c;
+    background-color: #895d0c;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #895d0c;
+    background-color: #895d0c;
+    color: white;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
